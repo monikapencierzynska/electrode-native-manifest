@@ -4,10 +4,11 @@
     "dependencies": []
   },
   "ios": {
+    "root": "ios",
     "copy": [
       {
         "dest": "{{{projectName}}}/Libraries/RNCMaskedView",
-        "source": "ios/*"
+        "source": "ios/**"
       }
     ],
     "pbxproj": {
